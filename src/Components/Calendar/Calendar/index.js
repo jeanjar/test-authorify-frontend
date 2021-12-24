@@ -1,11 +1,9 @@
 import './index.scss'
-import {Button, Col, Row} from "react-bootstrap";
+import {Col, Row} from "react-bootstrap";
 import {useEffect, useState} from "react";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faChevronLeft, faChevronRight} from "@fortawesome/free-solid-svg-icons"
 import Hours from "../Hours";
 import {DaysOfWeek, SelectedTim} from "../index";
-import {AllControls, Next, Previous, Title} from "../Controls";
+import {AllControls} from "../Controls";
 import Days from "../Days";
 
 const Calendar = ({calendar, current, next, previous, daysOfWeek, callNextOrPrevMonth}) => {
